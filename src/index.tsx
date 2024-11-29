@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Root from "./routes/Root";
 import Portfolio from "./routes/Portfolio";
+import Annals from "./routes/Annals";
+
 import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
@@ -16,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/portfolio",
     element: <Portfolio />,
+  },
+  {
+    path: "/annals",
+    element: <Annals />,
   },
 ]);
 
