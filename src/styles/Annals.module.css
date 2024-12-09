@@ -1,0 +1,31 @@
+.container {
+  font-family: "KoPubWorldBatang", serif;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.artboard {
+  width: 40%;
+  min-width: 300px;
+  background-color: white;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.body {
+  font-size: 0.8rem;
+}
+
+sup {
+  font-family: "Pretendard", sans-serif;
+  font-size: 40%;
+  position: relative;
+  top: -0.5rem;
+  color: goldenrod;
+}
