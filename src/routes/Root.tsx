@@ -11,7 +11,7 @@ export default function Root() {
       }}
     >
       <h1>
-        <Link to="/portfolio">PORTFOLIO</Link> NOW WORKING...
+        <Link to="/profiles">PROFILES</Link> NOW WORKING...
       </h1>
     </div>
   );
