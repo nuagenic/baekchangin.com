@@ -4,6 +4,7 @@ export type ProfileType = {
   thumbnail: string | null;
   startDate: string;
   endDate: string | "지금";
+  note: string;
 };
 
 export const profilesList: ProfileType[] = [
@@ -15,5 +16,6 @@ export const profilesList: ProfileType[] = [
     thumbnail: "/images/image1.png",
     startDate: "2024.12.09",
     endDate: "지금",
+    note: "소개는 결정적인 동시에 잠정적이다...\n소개는 도처에서 굳어진 채로 나를 대변하지만, 나는 어느새 그 소개들을 빠져나와 다른 곳으로 가 있다.\n\n나는 세계가 판단해야 할 나를 결정적으로 둔다.\n한편 책날개의 뒷면을 기웃거릴 사랑이 남은 이들에게 잠정적인 나를 내보인다!",
   },
 ];

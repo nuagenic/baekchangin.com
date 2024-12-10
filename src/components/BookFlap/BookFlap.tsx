@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 
 import { ProfileType } from "../../assets/profilesList";
 import styles from "./BookFlap.module.css";
@@ -9,6 +9,7 @@ export default function BookFlap({
   thumbnail,
   startDate,
   endDate,
+  note,
 }: ProfileType) {
   const [isClicked, setIsClicked] = useState(false);
 
@@ -34,14 +35,16 @@ export default function BookFlap({
           ></div>
           <div className={styles.date}>
             {startDate}-{endDate === "지금" ? "지금" : endDate}
-            까지 잠재적인 소개로 작동 중...
+            까지 잠정적인 소개로 작동 중...
           </div>
         </section>
       </div>
       <div
         className={isClicked ? styles.clickedBackFlap : styles.backFlap}
         onClick={handleFlapClick}
-      ></div>
+      >
+        <div className={styles.note}>{note}</div>
+      </div>
       <div className={styles.cover}></div>
     </div>
   );
