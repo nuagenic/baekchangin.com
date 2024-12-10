@@ -34,7 +34,7 @@ export default function BookFlap({
           ></div>
           <div className={styles.date}>
             {startDate}-{endDate === "지금" ? "지금" : endDate}
-            까지 작동 중
+            까지 잠재적인 소개로 작동 중...
           </div>
         </section>
       </div>
