@@ -1,8 +1,11 @@
 .container {
-  background-color: rgb(40, 40, 40);
-  display: flex;
+  /* display: flex; */
   height: 100vh;
-  justify-content: end;
-  align-items: center;
+  background-color: rgb(40, 40, 40);
+  /* flex-direction: row-reverse; */
+  /* justify-content: end; */
+  /* align-items: center; */
+  overflow-x: hidden;
   overflow-y: hidden;
+  perspective: 2000px;
 }
