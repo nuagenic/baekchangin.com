@@ -1,14 +1,22 @@
-.container {
+/* .container {
+  position: relative;
   font-weight: 700;
   width: 500px;
   min-width: 200px;
   height: 90%;
   min-height: 300px;
   perspective: 2000px;
-}
+  margin-left: -200px;
+} */
 
 .flap,
 .clickedFlap {
+  position: absolute;
+  height: 90%;
+  width: 400px;
+  top: 5vh;
+  /* left: 500px; */
+
   padding: 2rem;
   box-sizing: border-box;
   background: linear-gradient(
@@ -17,10 +25,9 @@
     5%,
     rgb(230, 230, 230)
   );
-  height: 100%;
-  position: absolute;
-  width: 400px;
-  /* box-shadow: 10px 30px rgba(0, 0, 0, 0.3); */
+  font-weight: 700;
+
+  /* box-shadow: 5px 5px 3px #666; */
   transform-origin: left center;
   transform-style: preserve-3d;
   transition: transform 1.8s ease-in-out;
@@ -114,7 +121,7 @@
 }
 
 .clickedBackFlap:hover {
-  transform: rotateY(30deg);
+  transform: rotateY(25deg);
   transition: transform 1s ease-in-out;
 }
 
@@ -125,6 +132,7 @@
 }
 
 .cover {
+  position: absolute;
   background: linear-gradient(
     0.25turn,
     rgb(120, 120, 120),
@@ -133,4 +141,5 @@
   );
   width: 100%;
   height: 100%;
+  /* z-index: -1 !important; */
 }
