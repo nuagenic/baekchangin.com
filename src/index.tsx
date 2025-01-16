@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Root from "./routes/Root";
 import Portfolio from "./routes/Portfolio";
-import Annals from "./routes/Annals";
+import Chronicle from "./routes/Chronicle";
 import Profiles from "./routes/Profiles";
 
 import ErrorPage from "./error-page";
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
     element: <Portfolio />,
   },
   {
-    path: "/annals",
-    element: <Annals />,
+    path: "/chronicle",
+    element: <Chronicle />,
   },
   {
     path: "/profiles",
