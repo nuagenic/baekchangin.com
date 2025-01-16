@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "../styles/Annals.module.css";
 import { annalList } from "../assets/annalList";
 
-export default function Annals() {
+export default function Chronicle() {
   const [visibleImages, setVisibleImages] = useState([]);
 
   // 단어 클릭 시 이미지 띄우는 경우
