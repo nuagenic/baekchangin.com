@@ -1,25 +1,41 @@
 .container {
-  font-family: "KoPubWorldBatang", serif;
+  font-family: "Pretendard";
   display: flex;
   justify-content: center;
-  background-color: gray;
+  background-color: black;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 .artboard {
-  width: 40%;
+  width: 50%;
   min-width: 300px;
   background-color: white;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 .title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
-.body {
-  font-size: 0.8rem;
+section {
+  margin: 0;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.clickableWord {
+  cursor: pointer;
+  text-decoration: none;
+  color: blue;
+}
+
+li {
+  line-height: 1.3;
 }
 
 sup {
@@ -28,4 +44,8 @@ sup {
   position: relative;
   top: -0.5rem;
   color: goldenrod;
+}
+
+footer {
+  text-wrap: wrap;
 }
