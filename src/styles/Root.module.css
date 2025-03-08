@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: 400;
+}
+
+.toggle {
+  text-decoration: underline dotted;
+  cursor: pointer;
+}
+
+.work {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+.workTitle {
+  flex: 3;
+}
+
+.workYear {
+  flex: 1;
+}
+
+.workType {
+  flex: 1;
+}
