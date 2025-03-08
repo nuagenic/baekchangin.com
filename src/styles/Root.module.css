@@ -1,10 +1,12 @@
 .container {
+  color: white;
   display: flex;
   flex-direction: column;
+  font-weight: 300;
 }
 
 .header {
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 .toggle {
@@ -12,10 +14,10 @@
   cursor: pointer;
 }
 
-.work {
+.workBrief {
   display: flex;
-  gap: 0.5rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+  cursor: pointer;
 }
 
 .workTitle {
@@ -28,4 +30,19 @@
 
 .workType {
   flex: 1;
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  height: 50%;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
 }
