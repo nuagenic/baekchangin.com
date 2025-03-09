@@ -73,6 +73,10 @@ span {
 }
 
 a {
-  text-decoration: underline;
-  color: white;
+  color: inherit;
+  text-decoration: dotted underline;
+}
+
+html {
+  font-size: 14px;
 }
