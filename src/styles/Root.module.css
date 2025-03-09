@@ -1,0 +1,95 @@
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  padding: 1rem;
+  gap: 8rem;
+  width: 100%;
+}
+
+.header {
+  /* font-weight: 400; */
+  margin-bottom: 1rem;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .info {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.infoBrief {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoBriefName {
+  margin-bottom: 1rem;
+}
+
+.infoDetail {
+  flex: 2;
+  line-height: 1.7;
+  word-break: keep-all;
+}
+
+.toggle {
+  text-decoration: underline dotted;
+  cursor: pointer;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.workBrief {
+  width: 100%;
+  display: flex;
+  /* border-bottom: 1px solid white; */
+  padding-bottom: 0.25rem;
+  cursor: pointer;
+}
+
+.workTitle {
+  flex: 1;
+}
+
+.workTypeAndYear {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workType {
+}
+
+.workYear {
+  margin-left: auto;
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+  width: 2px;
+  height: 2px;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  height: 50%;
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}

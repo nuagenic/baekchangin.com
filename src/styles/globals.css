@@ -43,9 +43,11 @@
 }
 
 body {
+  background-color: black;
   margin: 0;
   padding: 0;
-  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
+  /* font-family: "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif; */
+  font-family: "Pretendard", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -55,6 +57,26 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+div,
+span {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: dotted underline;
+}
+
+html {
+  font-size: 14px;
 }

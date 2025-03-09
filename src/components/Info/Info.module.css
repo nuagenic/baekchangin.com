@@ -1,0 +1,26 @@
+.infoSection {
+  margin-bottom: 1rem;
+}
+
+.infoItem {
+  padding-left: 4rem;
+  display: flex;
+}
+
+.infoItemDate {
+  flex: 1;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.infoItemDateStart {
+  width: 30%;
+}
+
+.infoItemDateEnd {
+  width: 30%;
+}
+
+.infoItemContent {
+  flex: 4;
+}
