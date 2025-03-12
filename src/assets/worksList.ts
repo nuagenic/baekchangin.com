@@ -73,7 +73,7 @@ const worksList: WorkItem[] = [
       "/images/works/baekchang.in/5.jpeg",
       "/images/works/baekchang.in/6.jpeg",
     ],
-    link: "http://43.200.225.41/",
+    link: "http://baekchang.in/",
   },
   {
     title: "ISCHIVE",
