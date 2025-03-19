@@ -12,6 +12,7 @@
   justify-content: space-between;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-right: 1rem;
 }
 
 .workDescription {
@@ -31,9 +32,11 @@
 
 .workImages {
   display: flex;
-  gap: 0.5rem;
-  padding-bottom: 4px;
+  /* justify-content: center;
+  align-items: center;
+  width: 100%; */
   overflow-x: scroll;
+  gap: 0.5rem;
 }
 
 .workImage {

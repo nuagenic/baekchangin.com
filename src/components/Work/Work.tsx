@@ -1,7 +1,11 @@
 import { WorkItem } from "../../assets/worksList";
+import Carousel from "../Carousel/Carousel";
+import useEmblaCarousel from "embla-carousel-react";
 import styles from "./Work.module.css";
 
 export default function Work({ work }: { work: WorkItem }) {
+  const [emblaRef] = useEmblaCarousel({ loop: true });
+
   return (
     <div className={styles.container}>
       <div className={styles.workLeft}>
@@ -31,6 +35,7 @@ export default function Work({ work }: { work: WorkItem }) {
                 className={styles.workImage}
               />
             ))}
+          {/* <Carousel work={work} /> */}
         </div>
       </div>
     </div>
