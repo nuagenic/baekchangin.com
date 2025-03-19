@@ -1,7 +1,7 @@
 type WorkItem = {
   title: string;
   year: number;
-  description: string | string[];
+  description: string[];
   type: string;
   images?: string[];
   link?: string;
