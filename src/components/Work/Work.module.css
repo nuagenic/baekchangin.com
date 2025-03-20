@@ -32,9 +32,9 @@
 
 .workImages {
   display: flex;
-  /* justify-content: center;
+  justify-content: center;
   align-items: center;
-  width: 100%; */
+  width: 100%;
   overflow-x: scroll;
   gap: 0.5rem;
 }

@@ -26,7 +26,7 @@ export default function Work({ work }: { work: WorkItem }) {
       </div>
       <div className={styles.workRight}>
         <div className={styles.workImages}>
-          {work.images &&
+          {/* {work.images &&
             work.images.map((image) => (
               <img
                 key={image}
@@ -34,8 +34,8 @@ export default function Work({ work }: { work: WorkItem }) {
                 alt={work.title}
                 className={styles.workImage}
               />
-            ))}
-          {/* <Carousel work={work} /> */}
+            ))} */}
+          <Carousel work={work} />
         </div>
       </div>
     </div>
