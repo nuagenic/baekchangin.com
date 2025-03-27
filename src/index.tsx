@@ -7,6 +7,7 @@ import Root from "./routes/Root";
 import Portfolio from "./routes/Portfolio";
 import Chronicle from "./routes/Chronicle";
 import Profiles from "./routes/Profiles";
+import ChessPage from "./routes/Chess";
 
 import ErrorPage from "./error-page";
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/profiles",
     element: <Profiles />,
+  },
+  {
+    path: "/chess",
+    element: <ChessPage />,
   },
 ]);
 
