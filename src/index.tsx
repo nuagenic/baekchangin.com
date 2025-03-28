@@ -8,6 +8,7 @@ import Portfolio from "./routes/Portfolio";
 import Chronicle from "./routes/Chronicle";
 import Profiles from "./routes/Profiles";
 import ChessPage from "./routes/Chess";
+import Minguhongmfg from "./routes/Minguhongmfg";
 
 import ErrorPage from "./error-page";
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/chess",
     element: <ChessPage />,
+  },
+  {
+    path: "/minguhongmfg",
+    element: <Minguhongmfg />,
   },
 ]);
 
